@@ -3,6 +3,20 @@ public class Bombo{
     private boolean garantia;
 
 
+ public String getMaterial(){
+      return material;
+ }
+ public void setMaterial(String material){
+    this.material = material; 
+ }
+
+ public boolean getGarantia(){
+    return garantia;
+ }
+
+ public void setGarantia(boolean garantia){
+    this.garantia = garantia;
+ }
 
 
 
