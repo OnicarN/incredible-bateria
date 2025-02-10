@@ -17,8 +17,10 @@ public class Bombo{
  public void setGarantia(boolean garantia){
     this.garantia = garantia;
  }
-
-
+ public void imprimirDetalles(){
+	System.out.println("Material: " + material + " Garantia: " + garantia)
+}
+ 
 
 
 

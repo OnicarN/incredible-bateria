@@ -14,6 +14,9 @@ public class Bateria{
     public void setPrecio(){
         this.precio = precio;
     }
+    public void imprimirAtributos(){
+	System.out.println("Marca: " + marca + " Precio: " + precio)
+    }
 
 
 
