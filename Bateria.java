@@ -1,6 +1,7 @@
 public class Bateria{
     private String marca;
     private int precio;
+    private boolean acustica;
 
     public String getMarca(){
         return marca;        
