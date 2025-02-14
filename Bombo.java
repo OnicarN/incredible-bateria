@@ -1,6 +1,7 @@
 public class Bombo{
     private String material;
     private boolean garantia;
+    
 
 
  public String getMaterial(){
