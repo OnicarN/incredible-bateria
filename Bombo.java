@@ -19,7 +19,7 @@ public class Bombo{
     this.garantia = garantia;
  }
  public void imprimirDetalles(){
-	System.out.println("Material: " + material + " Garantia: " + garantia)
+	System.out.println("Material: " + material + " Garantia: " + garantia);
 }
  
 
