@@ -22,6 +22,9 @@ public class Bateria{
     public void setPrecio(){
         this.precio = precio;
     }
+    public boolean getAcustica(){
+        return acustica;
+    }
     public void imprimirAtributos(){
 	System.out.println("Marca: " + marca + " Precio: " + precio)
     }
