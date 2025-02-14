@@ -3,6 +3,13 @@ public class Bateria{
     private int precio;
     private boolean acustica;
 
+    public Bateria(String Marca, int precio, boolean acustica){
+        this.marca = marca;
+        this.precio = precio;
+        this.acustica = acustica;
+
+    }
+
     public String getMarca(){
         return marca;        
     }
