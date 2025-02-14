@@ -3,7 +3,7 @@ public class Bateria{
     private int precio;
     private boolean acustica;
 
-    public Bateria(String Marca, int precio, boolean acustica){
+    public Bateria(String marca, int precio, boolean acustica){
         this.marca = marca;
         this.precio = precio;
         this.acustica = acustica;
@@ -13,21 +13,29 @@ public class Bateria{
     public String getMarca(){
         return marca;        
     }
-    public void setMarca(){
+    public void setMarca(String marca){
         this.marca = marca;
     }
     public int getPrecio(){
         return precio;        
     }
-    public void setPrecio(){
+    public void setPrecio(int precio){
         this.precio = precio;
     }
     public boolean getAcustica(){
         return acustica;
     }
     public void imprimirAtributos(){
-	System.out.println("Marca: " + marca + " Precio: " + precio)
+	System.out.println("Marca: " + marca + " Precio: " + precio);
     }
+    
+    public void setAcustica(boolean acustica){
+        this.acustica = acustica;
+    }
+    public void imprimirDetalles(){
+        System.out.println("Marca: " + marca + " Precio: " + precio+"Acustica"+acustica);
+    }
+    
 
 
 
