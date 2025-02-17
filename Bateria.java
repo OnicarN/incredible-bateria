@@ -5,9 +5,9 @@ public class Bateria{
 
     private Bombo bombo;
 
-    public Bateria(String marca, boolean acustica, Bombo bombo){
+    public Bateria(String marca, boolean acustica){
         this.marca = marca;
-        this.bombo = bombo;
+        bombo = new Bombo();
         this.acustica = acustica;
 
     }
@@ -29,14 +29,14 @@ public class Bateria{
         return acustica;
     }
     public void imprimirAtributos(){
-	System.out.println("Marca: " + marca + "Bombo:"+ bombo);
+    System.out.println("Marca: " + marca +". Material del bombo: " + bombo.getMaterial() + ". Garantia del bombo: " + bombo.getGarantia());
     }
     
     public void setAcustica(boolean acustica){
         this.acustica = acustica;
     }
     public void imprimirDetalles(){
-        System.out.println("Marca: " + marca +"Bombo"+bombo);
+        System.out.println("Marca: " + marca +". Material del bombo: " + bombo.getMaterial() + ". Garantia del bombo: " + bombo.getGarantia());
     }
     
 
